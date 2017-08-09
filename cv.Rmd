@@ -6,6 +6,6 @@ title: ""
 
 # CV
 
-Please click the link to download a copy: <a href="http://www.ualberta.ca/~porretta/content/CV.pdf" target="_blank">CV_Porretta</a>
+Please click the link to download a copy: <a href="https://vincentporretta.github.io/CV.pdf" target="_blank">CV_Porretta</a>
 
 <br><br>
