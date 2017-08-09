@@ -26,7 +26,7 @@ navbar:
       href: links.html
   right:
     - text: "Contact"
-      icon: ion-person
+      icon: fa-user
       href: contact.html
     
 output_dir: "."
