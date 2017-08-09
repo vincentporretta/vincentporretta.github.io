@@ -1,0 +1,23 @@
+---
+title: ""
+---
+
+<BR>
+
+# External links 
+
+<a href="https://cran.r-project.org/web/packages/VWPre/index.html" target="_blank">VWPre on CRAN</a> 
+
+<a href="http://ccp.artsrn.ualberta.ca/" target="_blank">Centre for Comparative Psycholinguistics</a>
+
+<a href="http://ccp.artsrn.ualberta.ca/stepccp/" target="_blank">STEP@CCP</a>
+
+<a href="http://aphl.artsrn.ualberta.ca/" target="_blank">Alberta Phonetics Lab</a>
+
+<a href="http://www.linguistics.ualberta.ca/" target="_blank">University of Alberta Department of Linguistics</a>
+
+<a href="http://uwindsor.ca/psychology/" target="_blank">University of Windsor Department of Psychology</a>
+
+<a href="http://wordsintheworld.ca/" target="_blank">Words in the World</a>
+
+<br><br>

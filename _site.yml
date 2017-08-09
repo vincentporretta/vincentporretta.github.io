@@ -1,0 +1,41 @@
+name: "my-website"
+navbar:
+  title: "vincent PORRETTA"
+  left:
+    - text: "Research"
+      icon: 
+      href: research.html
+    - text: "Teaching"
+      icon: fa-book
+      href: teaching.html
+    - text: "CV"
+      icon: fa-file-text-o
+      menu:
+        - text: "Publications"
+          href: publications.html
+        - text: "Presentations"
+          href: presentations.html
+        - text: "---------"
+        - text: "Download full CV (PDF)"
+          href: cv.html
+    - text: "VWPre"
+      icon: fa-registered
+      href: VWPre.html
+    - text: "Links"
+      icon: fa-external-link
+      href: links.html
+  right:
+    - text: "Contact"
+      icon: fa-id-card
+      href: contact.html
+    
+output_dir: "."
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    includes:
+      in_header: header.html
+      after_body: footer.html
+    css: style.css
+exclude: ["*.Rmd"] 

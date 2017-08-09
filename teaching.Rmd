@@ -1,0 +1,41 @@
+---
+title: ""
+---
+
+<BR>
+
+# Courses 
+
+#### University of Alberta
+
+* Linguistics 101 - Introduction to Linguistic Analysis 
+* Linguistics 204 - Introduction to Engilsh Syntax  
+* Linguistics 499/599 - Introduction to Psycholinguistic Data Analysis  
+
+<BR>
+
+# Workshops 
+
+I have numerous delivered workshops on eye-tracking methods and data analysis.
+
+#### University of Alberta
+* Experiment Builder and Data Viewer for VWP studies
+* Generalized Additive Mixed Modeling for VWP data
+
+#### University of Windsor
+* Experiment Builder and Data Viewer for eye-tracking studies
+* Linear mixed-effects regression for psycholinguistic data
+
+#### University of Freiburg
+* Introduction to Generalized Additive Mixed Modeling for (Psycho)linguistic Data
+
+#### University of Konstanz
+* Generalized Additive Mixed Modeling of Visual World Paradigm eye-tracking data
+
+<BR>
+
+# Spring Training in Experimental Psycholinguistics
+
+I have taught various courses for STEP which offers courses in experimental psycholinguistics each May. For more information please visit <a href="http://ccp.artsrn.ualberta.ca/stepccp/" target="_blank">STEP@CCP</a>.
+
+<br><br>
