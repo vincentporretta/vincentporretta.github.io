@@ -3,7 +3,7 @@ navbar:
   title: "vincent PORRETTA"
   left:
     - text: "Research"
-      icon: 
+      icon: fa-bar-chart
       href: research.html
     - text: "Teaching"
       icon: fa-book
@@ -26,7 +26,7 @@ navbar:
       href: links.html
   right:
     - text: "Contact"
-      icon: fa-id-card
+      icon: ion-person
       href: contact.html
     
 output_dir: "."
