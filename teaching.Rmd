@@ -16,7 +16,7 @@ title: ""
 
 # Workshops 
 
-I have numerous delivered workshops on eye-tracking methods and data analysis.
+I have delivered numerous workshops on eye-tracking methods and data analysis.
 
 #### University of Alberta
 * Experiment Builder and Data Viewer for VWP studies
@@ -36,6 +36,6 @@ I have numerous delivered workshops on eye-tracking methods and data analysis.
 
 # Spring Training in Experimental Psycholinguistics
 
-I have taught various courses for STEP which offers courses in experimental psycholinguistics each May. For more information please visit <a href="http://ccp.artsrn.ualberta.ca/stepccp/" target="_blank">STEP@CCP</a>.
+I have taught various courses for STEP which offers courses in experimental psycholinguistics each May at the University of Alberta. For more information please visit <a href="http://ccp.artsrn.ualberta.ca/stepccp/" target="_blank">STEP@CCP</a>.
 
 <br><br>

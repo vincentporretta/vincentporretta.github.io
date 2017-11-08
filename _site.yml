@@ -4,7 +4,11 @@ navbar:
   left:
     - text: "Research"
       icon: fa-bar-chart
-      href: research.html
+      menu:
+        - text: "Description"
+          href: research.html
+        - text: "Collaborators"
+          href: collaborators.html
     - text: "Teaching"
       icon: fa-book
       href: teaching.html

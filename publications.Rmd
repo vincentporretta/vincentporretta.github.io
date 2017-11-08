@@ -22,7 +22,7 @@ my_submitted <- my_articles[grepl("submitted", my_articles$pubstate)]
 ```{r, echo=FALSE, results="asis", comment=FALSE}
 # Print submitted
 if(length(my_submitted)>0){
-  cat("<br> \n ## Submitted \n")
+  cat("<br> \n\n# Submitted \n \n")
 dates <- unlist(unique(my_submitted$key))[order(unlist(unique(my_submitted$key)),decreasing = TRUE)]
 #Prints recerences
 for (bibkey in dates) {
@@ -63,8 +63,9 @@ for (date in dates) {
 
 ```{r, echo=FALSE, results="asis",comment=FALSE}
 # Get packages
-man <- bib_file[grepl("Manual", bib_file$bibtype)]
+man <- bib_file[grepl("Misc", bib_file$bibtype)]
 my_man <- man[grepl("Porretta", man$author)]
+
 
 
 dates <- unlist(unique(my_man$year))[order(unlist(unique(my_man$year)),decreasing = TRUE)]

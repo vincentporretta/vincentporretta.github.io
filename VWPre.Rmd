@@ -15,7 +15,7 @@ tmp <- as.data.frame(x$VWPre)
 tmp <- tmp[order(tmp$Topic),]
 ```
 
-```{r, eval = TRUE, echo=FALSE, results='hide', message=FALSE}
+```{r, eval = TRUE, echo=FALSE, results='hide', message=FALSE, cache=T}
 data(VWdat)
 dat <- fasttrack(data = VWdat, Subject = "RECORDING_SESSION_LABEL", Item = "itemid", 
 	EventColumns = c("Subject", "TRIAL_INDEX"), NoIA = 4, Adjust = 100, Recording = "LandR", 
@@ -33,8 +33,8 @@ I develop and maintain *VWPre*, an R package for preprocessing and plotting Visu
 plot_avg(data = dat, type = "proportion", xlim = c(0, 1000), 
     IAColumns = c(IA_1_P = "Target", IA_2_P = "Rhyme", IA_3_P = "OnsetComp", 
                   IA_4_P = "Distractor"),
-    Condition1 = NA, Condition2 = NA, Cond1Labels = NA, Cond2Labels = NA,
-    ErrorBar = TRUE, VWPreTheme = TRUE) 
+    Condition1 = NULL, Condition2 = NULL, Cond1Labels = NA, Cond2Labels = NA,
+    ErrorBar = TRUE, VWPreTheme = TRUE)
 ```
 
 There are several elaborated vignettes designed to help the user become comfortable with the functionality of the package. Currently there are `r nrow(tmp)` vignettes available:

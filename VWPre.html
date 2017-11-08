@@ -185,12 +185,22 @@ $(document).ready(function () {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="research.html">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     <span class="fa fa-bar-chart"></span>
      
     Research
+     
+    <span class="caret"></span>
   </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="research.html">Description</a>
+    </li>
+    <li>
+      <a href="collaborators.html">Collaborators</a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="teaching.html">
@@ -260,7 +270,7 @@ $(document).ready(function () {
 <div id="vwpre" class="section level1">
 <h1>VWPre</h1>
 <p><BR> <BR></p>
-<p>I develop and maintain <em>VWPre</em>, an R package for preprocessing and plotting Visual World Paradigm eye-tracking data. The current version of the package (0.9.6) can be found on CRAN: <a href="https://cran.r-project.org/web/packages/VWPre/index.html" target="_blank">VWPre R package on CRAN</a></p>
+<p>I develop and maintain <em>VWPre</em>, an R package for preprocessing and plotting Visual World Paradigm eye-tracking data. The current version of the package (1.0.0) can be found on CRAN: <a href="https://cran.r-project.org/web/packages/VWPre/index.html" target="_blank">VWPre R package on CRAN</a></p>
 <p><img src="VWPre_files/figure-html/unnamed-chunk-2-1.png" width="300px" height="150px" style="display: block; margin: auto;" /></p>
 <p>There are several elaborated vignettes designed to help the user become comfortable with the functionality of the package. Currently there are 4 vignettes available:</p>
 <p><a href="https://cran.r-project.org/web/packages/VWPre/vignettes/SR_Basic_Preprocessing.html" target="_blank">Basic VWP Preprocessing for SR Eyelink Data</a></p>
@@ -270,9 +280,9 @@ $(document).ready(function () {
 <p><BR></p>
 <p><img src="http://cranlogs.r-pkg.org/badges/VWPre" align="bottom" height="25" width="150"> <BR> <BR></p>
 <p>The package can be cited as below:</p>
-<p>Porretta V, Kyröläinen A, van Rij J and Järvikivi J (2017). “VWPre: Tools for Preprocessing Visual World Data.” R package version 0.9.6.</p>
+<p>Porretta V, Kyröläinen A, van Rij J and Järvikivi J (2017). “VWPre: Tools for Preprocessing Visual World Data.” R package version 1.0.0.</p>
 <p>A BibTeX entry for LaTeX users is</p>
-<p><span class="citation">@Misc</span>{, title = {{VWPre}: Tools for Preprocessing Visual World Data}, author = {Vincent Porretta and Aki-Juhani Kyröläinen and Jacolien {van Rij} and Juhani Järvikivi}, year = {2017}, note = {R package version 0.9.6}, }</p>
+<p><span class="citation">@Misc</span>{, title = {{VWPre}: Tools for Preprocessing Visual World Data}, author = {Vincent Porretta and Aki-Juhani Kyröläinen and Jacolien {van Rij} and Juhani Järvikivi}, year = {2017}, note = {R package version 1.0.0}, }</p>
 <p><BR> <BR></p>
 </div>
 
