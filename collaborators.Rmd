@@ -23,21 +23,26 @@ The darkness of the lines indicates the number of publications.
 
 ```{r, echo=FALSE, results="asis",comment=FALSE}
 # Get articles
+#x <- c("Article", "InProceedings", "InCollection", "Book", "Conference")
 x <- c("Article", "InProceedings", "InCollection", "Book")
 articles <- bib_file[grepl(paste(x, collapse = "|"), bib_file$bibtype)]
 my_articles <- articles[grepl("Porretta", articles$author)]
+my_articles <- my_articles[!(grepl("inpreparation", my_articles$pubstate))]
+#my_articles <- my_articles[!(grepl("2007", my_articles$year))]
 
 # Get authors names and cooccurance
 coauth <- data.frame(character(), character(), stringsAsFactors=F)
 for(i in seq_along(my_articles)) {
   authors <- my_articles[i]$author
   pub_auth <- vector(mode = "character", length = length(authors))
+  if(length(pub_auth)>1){
   for(a in seq_along(pub_auth)) {
     pub_auth[a] <- paste(unlist(authors[a]), collapse = " ")
   # coauth <- c(coauth, auth)
     
   }
   coauth<-rbind(coauth,t(combn(pub_auth, m=2)))
+  }
 }
 
 
@@ -63,13 +68,13 @@ V(g)$degree <- degree(g)
 # set seed to make the layout reproducible
 #set.seed(470)
 set.seed(1)
-#layout1 <- layout.fruchterman.reingold(g)
-# layout1 <- layout.lgl(g)
+# layout1 <- layout.fruchterman.reingold(g)
+layout1 <- layout.lgl(g)
 # layout1 <- layout.star(g)
 # layout1 <- layout.random(g)
-layout1 <- layout.graphopt(g)
-#layout1 <- layout_nicely(g)
-#layout1 <- layout.norm(layout1, ymin=-1.5, ymax=1.5, xmin=-1.5, xmax=1.5)
+# layout1 <- layout.graphopt(g)
+# layout1 <- layout_nicely(g)
+# layout1 <- layout.norm(layout1, ymin=-1.5, ymax=1.5, xmin=-1.5, xmax=1.5)
 layout1 <- layout.norm(layout1, ymin=0, ymax=2.75, xmin=0, xmax=3)
 
 V(g)$label.cex <- 0.8
