@@ -1,10 +1,10 @@
 ---
-title: ""
+title: "&nbsp;"
 ---
 
-<BR>
+# VWPre
 
-# VWPre 
+<BR>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, cache = FALSE)
@@ -23,11 +23,8 @@ dat <- fasttrack(data = VWdat, Subject = "RECORDING_SESSION_LABEL", Item = "item
   ObsPerBin = 20, Constant = 0.5, Output = "ELogit")
 ```
 
-<BR>
-<BR>
-
 I develop and maintain *VWPre*, an R package for preprocessing and plotting Visual World Paradigm eye-tracking data. The current version of the package (`r z`) can be found on CRAN: 
-<a href="https://cran.r-project.org/web/packages/VWPre/index.html" target="_blank">VWPre R package on CRAN</a> 
+<a href="https://CRAN.R-project.org/package=VWPre" target="_blank">VWPre R package on CRAN</a> 
 
 ```{r, eval= TRUE, fig.show='hold', fig.width = 6, fig.height=3, out.width='300px', out.height='150px', fig.align='center', results='asis', message=FALSE, warning=FALSE}
 plot_avg(data = dat, type = "proportion", xlim = c(0, 1000), 

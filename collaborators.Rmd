@@ -1,7 +1,8 @@
 ---
-title: "Collaborators"
+title: "&nbsp;"
 ---
 
+# Collaborators
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, cache = FALSE)
@@ -11,8 +12,6 @@ library(magrittr)
 library(igraph)
 bib_file <- ReadBib("../../Biblatex/ReferencesBIBLATEX.bib", check = FALSE)
 ```
-
-<br>
 
 <br>
 

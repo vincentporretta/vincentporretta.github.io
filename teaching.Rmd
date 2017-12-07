@@ -1,10 +1,12 @@
 ---
-title: ""
+title: "&nbsp;"
 ---
+
+# Teaching
 
 <BR>
 
-# Courses 
+## Courses 
 
 #### University of Alberta
 
@@ -14,7 +16,7 @@ title: ""
 
 <BR>
 
-# Workshops 
+## Workshops 
 
 I have delivered numerous workshops on eye-tracking methods and data analysis.
 
@@ -34,7 +36,7 @@ I have delivered numerous workshops on eye-tracking methods and data analysis.
 
 <BR>
 
-# Spring Training in Experimental Psycholinguistics
+## Spring Training in Experimental Psycholinguistics
 
 I have taught various courses for STEP which offers courses in experimental psycholinguistics each May at the University of Alberta. For more information please visit <a href="http://ccp.artsrn.ualberta.ca/stepccp/" target="_blank">STEP@CCP</a>.
 

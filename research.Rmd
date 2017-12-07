@@ -1,16 +1,18 @@
 ---
-title: ""
+title: "&nbsp;"
 ---
+
+# Interests and Projects
 
 <br>
 
-# Research interests
+## Research interests
 
 My research interests include: *psycholinguistics*, *spoken language processing*, *Visual World Paradigm eye-tracking*, *foreign-accented speech*, *second language acquisition*, *bilingualism*, *language disorders*
 
 <br>
 
-# Current projects
+## Current projects
 
 * Individual differences in language processing    
 * Lexical competition in foreign-accented speech 
@@ -21,7 +23,7 @@ My research interests include: *psycholinguistics*, *spoken language processing*
 
 <br>
 
-# Dissertation
+## Dissertation
 
 *Perception and lexical processing of gradient foreign accentedness*: 
 My dissertation addressed native speaker perception and processing of the variability inherent to non-native speech (specifically, Mandarin-accented English). In the first study, I investigated the linguistic variables (both acoustic and lexical) that contribute to the perception of gradient foreign accentedness as measured by subjective ratings. These ratings were then employed to investigate how the gradient nature of accentedness influences lexical processing utilizing behavioral, eye-tracking, and electrophysiological methods. In addition to role of gradient foreign accentedness, I also examined how self-reported listener experience with Chinese-accented speakers influences processing of foreign-accented speech. A link to my dissertation can be found on my CV.

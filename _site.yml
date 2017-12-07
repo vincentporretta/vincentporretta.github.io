@@ -5,7 +5,7 @@ navbar:
     - text: "Research"
       icon: fa-bar-chart
       menu:
-        - text: "Description"
+        - text: "Interests and Projects"
           href: research.html
         - text: "Collaborators"
           href: collaborators.html

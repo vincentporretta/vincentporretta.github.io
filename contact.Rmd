@@ -1,16 +1,18 @@
 ---
-title: ""
+title: "&nbsp;"
 ---
+
+# Contact information
 
 <BR>
 
-# Email
+## Email
 
 &nbsp; &nbsp; &nbsp; &nbsp; porretta [at] uwindsor [dot] ca   
 
 <BR>
 
-# Address
+## Address
 
 &nbsp; &nbsp; &nbsp; &nbsp; Vincent Porretta  
 &nbsp; &nbsp; &nbsp; &nbsp; University of Windsor   

@@ -1,7 +1,8 @@
 ---
-title: "Presentations"
+title: "&nbsp;"
 ---
 
+# Presentations
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, cache = FALSE)
@@ -11,7 +12,7 @@ bib_file <- ReadBib("../../Biblatex/ReferencesBIBLATEX.bib", check = FALSE)
 
 <br>
 
-# Conferences
+## Conferences
 
 ```{r, echo=FALSE, results="asis",comment=FALSE}
 # Get presentations
@@ -29,7 +30,7 @@ for (date in dates) {
 
 <br>
 
-# Invited
+## Invited
 
 ```{r, echo=FALSE, results="asis",comment=FALSE}
 dates <- unlist(unique(my_pres_invited$year))[order(unlist(unique(my_pres_invited$year)),decreasing = TRUE)]

@@ -1,7 +1,8 @@
 ---
-title: "Publications"
+title: "&nbsp;"
 ---
 
+# Presentations
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, cache = FALSE)
@@ -22,7 +23,7 @@ my_submitted <- my_articles[grepl("submitted", my_articles$pubstate)]
 ```{r, echo=FALSE, results="asis", comment=FALSE}
 # Print submitted
 if(length(my_submitted)>0){
-  cat("<br> \n\n# Submitted \n \n")
+  cat("<br> \n\n## Submitted \n \n")
 dates <- unlist(unique(my_submitted$key))[order(unlist(unique(my_submitted$key)),decreasing = TRUE)]
 #Prints recerences
 for (bibkey in dates) {
@@ -34,7 +35,7 @@ for (bibkey in dates) {
 
 <br>
 
-# Refereed 
+## Refereed 
 
 ```{r, echo=FALSE, results="asis",comment=FALSE}
 # Print refereed
@@ -47,7 +48,7 @@ for (date in dates) {
 
 <br>
 
-# Non-refereed
+## Non-refereed
 ```{r, echo=FALSE, results="asis",comment=FALSE}
 # Print Non-refereed
 dates <- unlist(unique(my_articles_nonref$year))[order(unlist(unique(my_articles_nonref$year)),decreasing = TRUE)]
@@ -59,7 +60,7 @@ for (date in dates) {
 
 <br>
 
-# R Package
+## R Package
 
 ```{r, echo=FALSE, results="asis",comment=FALSE}
 # Get packages

@@ -1,12 +1,11 @@
 ---
-title: ""
+title: "&nbsp;"
 ---
 
+# External links
 <BR>
 
-# External links 
-
-<a href="https://cran.r-project.org/web/packages/VWPre/index.html" target="_blank">VWPre on CRAN</a> 
+<a href="https://CRAN.R-project.org/package=VWPre" target="_blank">VWPre on CRAN</a> 
 
 <a href="http://ccp.artsrn.ualberta.ca/" target="_blank">Centre for Comparative Psycholinguistics</a>
 
