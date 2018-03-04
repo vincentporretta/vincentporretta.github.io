@@ -24,15 +24,18 @@ I have delivered numerous workshops on eye-tracking methods and data analysis.
 * Experiment Builder and Data Viewer for VWP studies
 * Generalized Additive Mixed Modeling for VWP data
 
-#### University of Windsor
-* Experiment Builder and Data Viewer for eye-tracking studies
-* Linear mixed-effects regression for psycholinguistic data
-
 #### University of Freiburg
 * Introduction to Generalized Additive Mixed Modeling for (Psycho)linguistic Data
 
 #### University of Konstanz
 * Generalized Additive Mixed Modeling of Visual World Paradigm eye-tracking data
+
+#### University of Ottawa 
+* Linear Mixed-Effects Modeling
+
+#### University of Windsor
+* Experiment Builder and Data Viewer for eye-tracking studies
+* Linear mixed-effects regression for psycholinguistic data
 
 <BR>
 
