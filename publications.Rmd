@@ -18,6 +18,7 @@ my_articles <- articles[grepl("Porretta", articles$author)]
 my_articles_ref <- my_articles[!grepl("Non-refereed", my_articles$keywords)]
 my_articles_nonref <- my_articles[grepl("Non-refereed", my_articles$keywords)]
 my_submitted <- my_articles[grepl("submitted", my_articles$pubstate)]
+my_inpress <- my_articles[grepl("inpress", my_articles$pubstate)]
 ```
 
 ```{r, echo=FALSE, results="asis", comment=FALSE}
